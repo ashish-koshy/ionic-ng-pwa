@@ -5,7 +5,7 @@
   "homepage": "https://ionicframework.com/",
   "scripts": {
     "ng": "ng",
-    "start": "ionic serve --port 4200",
+    "start": "ionic build --watch --port 4200",
     "build-aot": "ionic build --aot",
     "android-studio": "npm run build-aot && npx cap sync android && npx cap open android",
     "android-device": "ionic capacitor run android -l --external",
