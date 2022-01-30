@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.ashish.ng.pwa",
+	"appName": "ionic-ng-pwa",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
