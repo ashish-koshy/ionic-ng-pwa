@@ -6,7 +6,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ionic serve --port 4200",
-    "debug-build": "ionic build",
+    "build-aot": "ionic build --aot",
+    "debug-android": "npm run build-aot && npx cap sync android && npx cap run android --livereload --external --port 4200 --open",
     "build": "ionic build --prod",
     "test": "ng test",
     "lint": "ng lint",
