@@ -1,8 +1,8 @@
 {
   "name": "ionic-ng-pwa",
   "version": "0.0.1",
-  "author": "Ionic Framework",
-  "homepage": "https://ionicframework.com/",
+  "author": "Ashish Koshy",
+  "homepage": "https://github.com/ashish-koshy/ionic-ng-pwa",
   "scripts": {
     "ng": "ng",
     "start": "ng serve -o",
