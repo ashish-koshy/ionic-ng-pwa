@@ -56,6 +56,17 @@ The web code hosted in the emulator or device will automatically reload if you c
 You can also run the command `npm run ios-ide` to automatically compile web code and launch `XCode` (without live reload).
 
 
+## Enviroment configuration
+
+Load environment specific values into your code through the `dotenv` mechanism. 
+Resource : https://github.com/motdotla/dotenv
+
+Simply create a file with the name `.env` at the root of this project to store your environment variables in the following fashion:
+`ENVIRONMENT_NAME=local`
+
+These values will automatically get loaded into your `environment.ts` file.
+
+
 ## Build Angular code
 
 Run `npm run build` to build the angular code with the production configuration. 
