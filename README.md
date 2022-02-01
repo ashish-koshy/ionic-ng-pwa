@@ -5,6 +5,11 @@ It also has been setup to follow the PWA standards.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.0.
 
+## Install dependencies
+
+Install a package manager like `npm` on your machine to resolve all the dependencies for this project. 
+Run `npm install` to setup up the project.
+
 ## Angular Development server with live reload
 
 Run `npm start` for a usual Angular dev server hosted at `http://localhost:4200/`. 
