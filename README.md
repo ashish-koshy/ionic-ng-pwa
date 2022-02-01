@@ -8,7 +8,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Install dependencies
 
 Install a package manager like `npm` on your machine to resolve all the dependencies for this project. 
-Run `npm install` to setup up the project.
+Using a `CLI`, run the command `npm install` to setup up the project.
 
 ## Angular Development server with live reload
 
