@@ -21,7 +21,9 @@ The app will automatically reload if you change any of the source files.
 This requires you to already have `Android Studio` pre-installed on your machine 
 along with compatible devices or equivalent emulators.
 
-Run the command `npm run android-start`
+Run the command `npm run android-start` 
+(If this command fails the first time, try running `npm run android-ide` at least 
+once to setup the project directly on `Android Studio` and then try again.) 
 
 This command launches two commands in parallel.
 1. It uses the ionic builder to build artifacts and watch for new file changes.
@@ -29,11 +31,12 @@ This command launches two commands in parallel.
 
 Please wait for step `1.` to finish. Then hit the cursor keys (Up or Down Arrows) on 
 your keyboard while focused on the command line window to select an emulator or a connected device 
-from the list of available android devices and hit enter
+from the list of available android devices and hit enter.
 
 The web code hosted in the emulator or device will automatically reload if you change any of the source files.
 
-You can also run the command `npm run android-ide` to automatically compile web code and launch `Android Studio` (without live reload).
+You can also run the command `npm run android-ide` to automatically compile web code and launch `Android Studio` 
+(without live reload).
 
 
 ## iOS Development server with live reload
@@ -42,6 +45,8 @@ This requires you to already have `XCode` pre-installed on your machine
 along with compatible devices or equivalent emulators.
 
 Run the command `npm run ios-start`
+(If this command fails the first time, try running `npm run ios-ide` at least 
+once to setup the project directly on `XCode` and then try again.)
 
 This command launches two commands in parallel.
 1. It uses the ionic builder to build artifacts and watch for new file changes.
@@ -53,7 +58,8 @@ from the list of available iOS devices and hit enter.
 
 The web code hosted in the emulator or device will automatically reload if you change any of the source files.
 
-You can also run the command `npm run ios-ide` to automatically compile web code and launch `XCode` (without live reload).
+You can also run the command `npm run ios-ide` to automatically compile web code and launch `XCode` 
+(without live reload).
 
 
 ## Enviroment configuration
